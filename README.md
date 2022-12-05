@@ -9,6 +9,8 @@
 - <a href="#7">Запуск ранее созданного контейнера</a>
 - <a href="#8">Выполнение команды внутри запущенного контейнера</a>
 - <a href="#9">Создание образа из Dockerfile</a>
+- <a href="#10">Запуск docker-compose</a>
+- <a href="#11">Остановка docker-compose</a>
 
 > **<div id="1">Загрузка образа</div>** <br>Пример:
 >> docker pull `<IMAGE_NAME>` <br>
@@ -51,3 +53,9 @@
 > **<div id="9">Создание образа из Dockerfile</div>** <br>Пример:
 >> docker build `<DOCKERFILE_PATH>` --tag `<IMAGE_NAME>` (`если точка то будет выбрата текущая дирректория`) <br>
 >> docker build . --tag myImage
+>
+> **<div id="10">Запуск docker-compose</div>** <br>Пример:
+>> docker-compose up -d
+> 
+> **<div id="10">Остановить docker-compose</div>** <br>Пример:
+>> docker-compose down
