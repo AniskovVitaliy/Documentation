@@ -48,7 +48,7 @@
 >> docker start 79c6b7c
 > 
 > **<div id="8">Выполнение команды внутри запущенного контейнера</div>** <br>Пример:
->> docker exec -it 79c6b7c /bin/bash `для запуска внутри контейнера используется exec`
+>> docker exec -it 79c6b7c /bin/bash `для запуска внутри контейнера используется exec` <br>
 >> docker exec -it pr_redis bash
 > 
 > **<div id="9">Создание образа из Dockerfile</div>** <br>Пример:
