@@ -49,6 +49,7 @@
 > 
 > **<div id="8">Выполнение команды внутри запущенного контейнера</div>** <br>Пример:
 >> docker exec -it 79c6b7c /bin/bash `для запуска внутри контейнера используется exec`
+>> docker exec -it pr_redis bash
 > 
 > **<div id="9">Создание образа из Dockerfile</div>** <br>Пример:
 >> docker build `<DOCKERFILE_PATH>` --tag `<IMAGE_NAME>` (`если точка то будет выбрата текущая дирректория`) <br>
